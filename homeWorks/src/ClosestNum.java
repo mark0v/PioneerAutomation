@@ -32,7 +32,6 @@ public class ClosestNum {
         System.out.println("Your input is: " + etalonNum);
     }
 
-
     public void findClosestNum(int firstDelta, int secondDelta){
         if(firstDelta == secondDelta){
             System.out.println("Entered Numbers is equals!");
@@ -43,3 +42,11 @@ public class ClosestNum {
         }
     }
 }
+
+/*
+ClosestNum c = new ClosestNum();
+c.setUpNumbers();
+        int firstDelta = c.findDelta(c.firstEntered, c.etalonNum);
+        int secondDelta = c.findDelta(c.secondEntered, c.etalonNum);
+        c.findClosestNum(firstDelta, secondDelta);
+        */
